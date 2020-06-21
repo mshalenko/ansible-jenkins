@@ -12,7 +12,7 @@ pipeline {
 	stages {
 		stage("First stage") {
 			steps {
-				sh 'ssh root@backend \'free -mh\''
+				sh 'ssh root@192.168.2.244 \'free -mh\''
 			}
 		}
 	}
