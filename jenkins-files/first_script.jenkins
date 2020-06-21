@@ -10,7 +10,7 @@ pipeline {
 		timestamps()
 	}
 	stages {
-		stage("Preparations") {
+		stage("First stage") {
 			steps {
 				sh 'ssh root@backend \'free -mh\''
 			}
